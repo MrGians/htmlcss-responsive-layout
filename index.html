@@ -15,12 +15,31 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Responsive Layout</title>
 </head>
-<body>
-    <!-- Header -->
-    <header>
+<body class="debug">
+
         <!-- Fixed Navbar -->
-        <nav></nav>
-    </header>
+    <nav id="navbar">
+        <div class="container d-flex h-100 border">
+            <!-- Main Logo -->
+            <div id="logo" class="border">LOGO</div>
+                
+            <!-- Desktop Menu just displayed in Desktop View-->
+            <div id="desktop-menu" class="border">
+                    <ul>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+            </div>
+                
+            <!-- Mobile Menu displayed in Mobile & Tablet View  -->
+            <div id="mobile-menu" class="border">
+                <a class="fa-solid fa-bars fa-2x"></a>
+            </div>
+        </div>
+    </nav>
 
     <!-- Main -->
     <main>
