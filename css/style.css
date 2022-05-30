@@ -133,3 +133,12 @@ li {
 
 
 /* Testimonials Section */
+#testimonials {text-align: center;}
+
+#testimonials h2 {color: var(--purple);}
+
+#testimonials .col div {
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 30px;
+}
