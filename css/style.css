@@ -248,5 +248,16 @@ li {
     
     /* Benefits Section */
     #benefits .col {flex-basis: calc(100% / 3);}
-    
+
+}
+
+
+/* Responsive Large Desktop View from 993px */
+@media screen and (min-width: 993px) {
+
+    /* Utilities */
+    .container {width: 60%;}
+
+    /* Strategic Planning Section */
+    #planning .container {width: 50%;}
 }
