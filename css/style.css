@@ -101,6 +101,8 @@ li {
 
 
 /* Main */
+
+/* Get Demo Application Section */
 #get-app .row {justify-content: space-between;}
 
 #get-app .row .col:first-child {flex-basis: calc(100% / 3 * 2 + 10px);}
@@ -115,3 +117,19 @@ li {
     border-radius: 20px;
     margin: 10px 5px;
 }
+
+
+/* Strategic Planning Section */
+#planning {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+#planning .row .col:last-child div {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 30px;
+}
+
+
+/* Testimonials Section */
