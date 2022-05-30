@@ -153,7 +153,7 @@ li {
 #benefits .row {justify-content: space-between;}
 
 #benefits .col {
-    flex-basis: calc(100% / 3);
+    flex-basis: 100%;
     margin: 0 -10px;
 }
 
@@ -200,6 +200,9 @@ li {
     /* Get Demo Application Section */
     #get-app .row {flex-direction: row;}
 
+    /* Testimonials Section */
+    #testimonials .col {text-align: initial;}
+
     /* Benefits Section */
     #benefits .row {flex-direction: row;}
 
@@ -217,4 +220,33 @@ li {
 
     /* More Footer's Information */
     #foot-info .row {width: 50%;}
+}
+
+
+/* Responsive Desktop View from 769px to 992px*/
+@media screen and (min-width: 769px) {
+
+    /* Utilities */
+    .container {width: 70%;}
+
+    /* Generics */
+    main {margin-top: 70px;}
+
+    /* Fixed Navbar */
+    #navbar {height: 50px;}
+
+    #desktop-menu {display: block;}
+    #mobile-menu {display: none;}
+
+    /* Strategic Planning Section */
+    #planning .container {width: 60%;}
+
+    #planning .row {flex-direction: row;}
+    #planning .col {flex-basis: 50%;}
+
+    #planning .col:last-child {align-self: flex-end;}
+    
+    /* Benefits Section */
+    #benefits .col {flex-basis: calc(100% / 3);}
+    
 }
