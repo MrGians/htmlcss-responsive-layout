@@ -1,0 +1,60 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* Palette color */
+:root{
+    --white: #FFF;
+    --black: #333;
+    --grey: #C3C3C3;
+    --blue: #0084FD;
+    --lightblue: #B5DDFF;
+    --purple: #9792E4;
+    --yellow: #FDC15F;
+}
+
+
+/* Utilities */
+.debug .border {border: 2px dotted red ;}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex{display: flex;}
+  
+.w-20 {width: 20%;}
+.w-30 {width: 30%;}
+.w-50 {width: 50%;}
+.w-70 {width: 70%;}
+.w-100 {width: 100%;}
+
+.h-100 {height: 100%;}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.my-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* Generics */
