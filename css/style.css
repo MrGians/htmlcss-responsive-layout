@@ -168,3 +168,24 @@ li {
 /* About Us Section */
 #about-us h2, #about-us h3 {color: var(--purple);}
 
+
+/* Footer */
+
+/* Get Started Section */
+#get-started {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+#get-started .row > * {margin: 15px 0;}
+
+#get-started h1 {color: var(--yellow);}
+
+
+/* More Footer's Information */
+#foot-info {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#foot-info p:first-child {padding-bottom: 50px;}
