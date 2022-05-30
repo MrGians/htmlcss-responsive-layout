@@ -177,6 +177,7 @@ li {
     color: var(--white);
 }
 
+#get-started .row {align-content: center;}
 #get-started .row > * {margin: 15px 0;}
 
 #get-started h1 {color: var(--yellow);}
@@ -188,4 +189,32 @@ li {
     color: var(--white);
 }
 
+#foot-info .row {align-content: center;}
+
 #foot-info p:first-child {padding-bottom: 50px;}
+
+
+/* Responsive Tablet View from 481px to 768px*/
+@media screen and (min-width: 481px) {
+
+    /* Get Demo Application Section */
+    #get-app .row {flex-direction: row;}
+
+    /* Benefits Section */
+    #benefits .row {flex-direction: row;}
+
+    #benefits .col {
+        flex-basis: calc(100% / 2);
+    }
+
+    /* About Us Section */
+    #about-us .row {flex-direction: row;}
+    #about-us .col:first-child {flex-basis: 60%;}
+    #about-us .col:last-child {flex-basis: 40%;}
+
+    /* Get Started Section */
+    #get-started .row {max-width: 50%;}
+
+    /* More Footer's Information */
+    #foot-info .row {width: 50%;}
+}
