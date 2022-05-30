@@ -21,6 +21,7 @@
 
 /* Utilities */
 .debug .border {border: 2px dotted red ;}
+.debug .border .border {border: 2px dashed orange;}
 
 .container{
     max-width: 90%;
@@ -40,15 +41,18 @@
 .w-70 {width: 70%;}
 .w-100 {width: 100%;}
 
+.min-h-150 {min-height: 150px;}
 .h-100 {height: 100%;}
 
-.py-10 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.p-20 {padding: 20px;}
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.px-10 {
-    padding-left: 10px;
-    padding-right: 10px;
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .my-15 {
@@ -62,10 +66,16 @@ nav a {
     color: var(--white);
 }
 
+main {margin-top: 100px;}
+
+section {margin: 30px 0;}
+
 li {
     list-style-type: none;
     display: inline-block;
 }
+
+
 
 /* Starting Mobile First */
 
@@ -89,3 +99,8 @@ li {
 
 
 /* Main */
+#get-app .card {
+    background-color: var(--lightblue);
+    border-radius: 20px;
+    width: 100%;
+}
