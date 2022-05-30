@@ -142,3 +142,26 @@ li {
     color: var(--white);
     border-radius: 30px;
 }
+
+
+/* Benefits Section */
+#benefits {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+#benefits .row {justify-content: space-between;}
+
+#benefits .col {
+    flex-basis: calc(100% / 3);
+    margin: 0 -10px;
+}
+
+#benefits .card {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 20px;
+    margin: 10px 5px;
+}
+
+
