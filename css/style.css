@@ -30,7 +30,7 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
 }
 
 .d-flex{display: flex;}
@@ -55,10 +55,12 @@
     padding-right: 20px;
 }
 
+.m-15 {margin: 15px;}
 .my-15 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 
 /* Generics */
 nav a {
@@ -99,8 +101,17 @@ li {
 
 
 /* Main */
+#get-app .row {justify-content: space-between;}
+
+#get-app .row .col:first-child {flex-basis: calc(100% / 3 * 2 + 10px);}
+
+#get-app .col {
+    flex-basis: calc(100% / 3);
+    margin: 0 -10px;
+}
+
 #get-app .card {
     background-color: var(--lightblue);
     border-radius: 20px;
-    width: 100%;
+    margin: 10px 5px;
 }
