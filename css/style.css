@@ -165,3 +165,6 @@ li {
 }
 
 
+/* About Us Section */
+#about-us h2, #about-us h3 {color: var(--purple);}
+
