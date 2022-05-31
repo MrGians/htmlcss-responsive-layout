@@ -126,6 +126,8 @@ img {display: block;}
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
+
     height: 80px;
     background-color: var(--secondary);
     color: var(--white);
@@ -233,8 +235,32 @@ img {display: block;}
 
 
 /* About Us Section */
-#about-us h2, #about-us h3 {color: var(--primary);}
 
+/* Left Column */
+#about-us p {line-height: 40px;}
+
+/* Right Column */
+#about-us .card-image {
+    height: 200px;
+    width: 200px;
+
+    position: relative;
+}
+
+#about-us .card-image .fa-quote-left {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+#about-us .card-image img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0;
+}
 
 /* Footer */
 footer section {margin: 0;} 
@@ -307,7 +333,12 @@ footer section {margin: 0;}
 
     /* About Us Section */
     #about-us .row {flex-direction: row;}
-    #about-us .col:first-child {max-width: 60%;}
+
+    #about-us .col {padding: 0 15px;}
+    #about-us .col:first-child {
+        max-width: 60%;
+        
+    }
     #about-us .col:last-child {max-width: 40%;}
 
     /* Get Started Section */
