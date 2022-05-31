@@ -219,19 +219,17 @@ img {display: block;}
 
 #benefits .row {margin: 0 -10px;}
 
-#benefits h2.w-100 {text-align: center;}
+#benefits .col {padding: 10px;}
 
 /* Single Benefits Card */
-#benefits .col {
-    max-width: 100%;
-    padding: 10px;
-}
 
 #benefits .card {
     background-color: var(--white);
     color: var(--black);
     border-radius: 20px;
 }
+
+#benefits .card-content .btn {width: 50%;}
 
 
 /* About Us Section */
@@ -278,10 +276,7 @@ footer section {margin: 0;}
     #get-app .row .col:first-child {max-width: calc(100% / 3 * 2);}
     #get-app .row .col {max-width: calc(100% / 3);}
 
-    #get-app .card-image {
-        width: 60%;
-        /* padding-top: 30px; */
-    }
+    #get-app .card-image {width: 60%;}
     
     #get-app .card-content .btn {width: 55%;}
 
