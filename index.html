@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Responsive Layout</title>
 </head>
-<body class="debugs">
+<body>
 
         <!-- Fixed Navbar -->
     <nav id="navbar">
@@ -36,7 +36,7 @@
                 
             <!-- Mobile Menu displayed in Mobile & Tablet View  -->
             <div id="mobile-menu">
-                <a class="fa-solid fa-bars fa-2x"></a>
+                <a href="#" class="fa-solid fa-bars fa-2x"></a>
             </div>
         </div>
     </nav>
@@ -53,15 +53,16 @@
 
                     <!-- Single Card (Big Card) | #1 -->
                     <div class="col">
-                        <div class="card big-card h-100 p-20">
-                            <!-- Card Content -->
-                            <div class="card-content">
+                        <div class="card big-card h-100 p-30">
+                            <!-- Card Content | Left column -->
+                            <div class="card-content py-30">
                                 <h2 class="c-secondary">Get a demo application</h2>
                                 <p class="py-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
                                 <a href="#" class="btn btn-l btn-secondary">
                                     <i class="fa-brands fa-apple"></i> App Store
                                 </a>
                             </div>
+                            <!-- Card Image | Right column -->
                             <figure class="card-image">
                                 <img class="w-100" src="images/phone.png" alt="Example demo application">
                             </figure>
@@ -70,7 +71,7 @@
 
                     <!-- Single Card | #2 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card h-100 p-30">
                             <!-- Card Content -->
                             <div class="card-content t-center">
                                 <i class="fa-solid fa-file-code fa-5x c-secondary"></i>
@@ -82,7 +83,7 @@
 
                     <!-- Single Card | #3 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card h-100 p-30">
                             <!-- Card Content -->
                             <div class="card-content t-center">
                                 <i class="fa-solid fa-compass-drafting fa-5x c-secondary"></i>
@@ -94,7 +95,7 @@
 
                     <!-- Single Card | #4 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card h-100 p-30">
                             <!-- Card Content -->
                             <div class="card-content t-center">
                                 <i class="fa-solid fa-laptop-code fa-5x c-secondary"></i>
@@ -106,7 +107,7 @@
 
                     <!-- Single Card | #5 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card h-100 p-30">
                             <!-- Card Content -->
                             <div class="card-content t-center">
                                 <i class="fa-solid fa-bullhorn fa-5x c-secondary"></i>
@@ -120,21 +121,24 @@
         </section>
 
         <!-- Strategic Planning Section -->
-        <section id="planning" class="bg-primary">
+        <section id="planning" class="bg-primary c-white">
             <div class="container">
+
                 <!-- Row Flex -->
-                <div class="row py-20">
+                <div class="row py-30">
+
                     <!-- Left Column | Image + Description -->
                     <div class="col">
-                        <img class="w-100 my-15" src="images/planning1.png" alt="Strategic Planning">
+                        <img class="w-100 py-20" src="images/planning1.png" alt="Strategic Planning">
                         <h2 class="py-20">Strategic Planning</h2>
-                        <p class="my-15">Egestas dui id ornare arcu odio. In tellus integer feugiat scelerisque varius morbi enim nunc. Habitasse platea dictumst quisque sagittis. Interdum velit euismod in pellentesque massa placerat duis. Quis viverra nibh cras oulvinar mattis.</p>
+                        <p class="py-20">Egestas dui id ornare arcu odio. In tellus integer feugiat scelerisque varius morbi enim nunc. Habitasse platea dictumst quisque sagittis. Interdum velit euismod in pellentesque massa placerat duis. Quis viverra nibh cras oulvinar mattis.</p>
                     </div>
-                    <!-- Right Column | White Box Content -->
+
+                    <!-- Right Column | App Developement Box Content -->
                     <div class="col">
-                        <div class="p-20 my-15 t-center">
-                            <img class="my-15 w-100" src="images/planning2.png" alt="Strategic Planning">
-                            <h2>App Developement</h2>
+                        <div class="app-dev-box c-black t-center p-20">
+                            <img class="py-20 w-100" src="images/planning2.png" alt="Strategic Planning">
+                            <h3>App Developement</h3>
                             <p class="py-20"><i>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</i></p>
                             <a href="#" class="fa-solid fa-arrow-down-long btn btn-primary"></a>
                         </div>
@@ -146,54 +150,66 @@
         <!-- Testimonials Section -->
         <section id="testimonials">
             <div class="container">
+
                 <!-- Row Flex -->
-                <div class="row py-20">
+                <div class="row t-center py-20">
+
                     <!-- Section Title + Description -->
                     <h4>Testimonials</h4>
-                    <h2 class="py-20">We are committed expert partners</h2>
+                    <h2 class="py-20 c-primary">We are committed expert partners</h2>
                     <p>We place huge value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right.</p>
-                    <!-- Testimonials Card -->
-                    <div class="col py-20">
-                        <!-- Single Testimonials Card -->
-                        <div class="card p-20 my-15">
-                            <div class="card-image">
-                                <img class="w-100 h-100" src="images/testimonial1.jpg" alt="Nat Reynolds">
-                            </div>
+                    
+                    <!-- Testimonials Cards -->
+                    <div class="col py-30">
+
+                        <!-- Single Testimonials Card | #1 -->
+                        <div class="card bg-primary c-white p-20 my-15">
+                            <!-- Card Image -->
+                            <figure class="card-image">
+                                <img class="w-100" src="images/testimonial1.jpg" alt="Nat Reynolds">
+                            </figure>
+                            <!-- Card Content -->
                             <div class="card-content my-15">
                                 <p class="py-20">
                                     <i class="fa-solid fa-quote-left"></i>
                                     Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin.
                                     <i class="fa-solid fa-quote-right"></i>
                                 </p>
-                                <h3>Nat Reynolds</h3>
+                                <span>Nat Reynolds</span>
                             </div>
                         </div>
-                        <!-- Single Testimonials Card -->
-                        <div class="card p-20 my-15">
-                            <div class="card-image">
-                                <img class="w-100 h-100" src="images/testimonial2.jpg" alt="Celia Almeda">
-                            </div>
+
+                        <!-- Single Testimonials Card | #2 -->
+                        <div class="card bg-primary c-white p-20 my-15">
+                            <!-- Card Image -->
+                            <figure class="card-image">
+                                <img class="w-100" src="images/testimonial2.jpg" alt="Celia Almeda">
+                            </figure>
+                            <!-- Card Content -->
                             <div class="card-content my-15">
                                 <p class="py-20">
                                     <i class="fa-solid fa-quote-left"></i>
                                     Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin.
                                     <i class="fa-solid fa-quote-right"></i>
                                 </p>
-                                <h3>Celia Almeda</h3>
+                                <span>Celia Almeda</span>
                             </div>
                         </div>
-                        <!-- Single Testimonials Card -->
-                        <div class="card p-20 my-15">
-                            <div class="card-image">
-                                <img class="w-100 h-100" src="images/testimonial3.jpg" alt="Bob Roberts">
-                            </div>
+
+                        <!-- Single Testimonials Card | #3 -->
+                        <div class="card bg-primary c-white p-20 my-15">
+                            <!-- Card Image -->
+                            <figure class="card-image">
+                                <img class="w-100" src="images/testimonial3.jpg" alt="Bob Roberts">
+                            </figure>
+                            <!-- Card Content -->
                             <div class="card-content my-15">
                                 <p class="py-20">
                                     <i class="fa-solid fa-quote-left"></i>
                                     Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin.
                                     <i class="fa-solid fa-quote-right"></i>
                                 </p>
-                                <h3>Bob Roberts</h3>
+                                <span>Bob Roberts</span>
                             </div>
                         </div>
                     </div>
@@ -202,82 +218,82 @@
         </section>
 
         <!-- Benefits Section -->
-        <section id="benefits">
+        <section id="benefits" class="bg-primary c-white">
             <div class="container">
                 <!-- Row Flex -->
-                <div class="row py-20">
+                <div class="row py-30">
 
                     <!-- Section Title -->
-                    <h2 class="py-20 w-100 t-center">Benefits of working with us</h2>
+                    <h2 class="w-100 py-30 t-center">Benefits of working with us</h2>
                     
                     <!-- Single Benefits Card | #1 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card p-30">
                             <div class="card-content">
-                                <h1 class="c-primary">01</h1>
-                                <h2 class="c-primary py-20">Hight Quality</h2>
+                                <span class="c-primary">01</span>
+                                <h3 class="c-primary py-20">Hight Quality</h3>
                                 <p class="py-20">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
-                                <a href="#" class="btn btn-l btn-primary">more</a>
+                                <a href="#" class="btn btn-l btn-primary w-50">more</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Single Benefits Card | #2 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card p-30">
                             <div class="card-content">
-                                <h1 class="c-primary">02</h1>
-                                <h2 class="c-primary py-20">Creative Team</h2>
+                                <span class="c-primary">02</span>
+                                <h3 class="c-primary py-20">Creative Team</h3>
                                 <p class="py-20">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
-                                <a href="#" class="btn btn-l btn-primary">more</a>
+                                <a href="#" class="btn btn-l btn-primary w-50">more</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Single Benefits Card | #3 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card p-30">
                             <div class="card-content">
-                                <h1 class="c-primary">03</h1>
-                                <h2 class="c-primary py-20">Amazing Results</h2>
+                                <span class="c-primary">03</span>
+                                <h3 class="c-primary py-20">Amazing Results</h3>
                                 <p class="py-20">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
-                                <a href="#" class="btn btn-l btn-primary">more</a>
+                                <a href="#" class="btn btn-l btn-primary w-50">more</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Single Benefits Card | #4 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card p-30">
                             <div class="card-content">
-                                <h1 class="c-primary">04</h1>
-                                <h2 class="c-primary py-20">Best Pricing</h2>
+                                <span class="c-primary">04</span>
+                                <h3 class="c-primary py-20">Best Pricing</h3>
                                 <p class="py-20">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
-                                <a href="#" class="btn btn-l btn-primary">more</a>
+                                <a href="#" class="btn btn-l btn-primary w-50">more</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Single Benefits Card | #5 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card p-30">
                             <div class="card-content">
-                                <h1 class="c-primary">05</h1>
-                                <h2 class="c-primary py-20">Innovations</h2>
+                                <span class="c-primary">05</span>
+                                <h3 class="c-primary py-20">Innovations</h3>
                                 <p class="py-20">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
-                                <a href="#" class="btn btn-l btn-primary">more</a>
+                                <a href="#" class="btn btn-l btn-primary w-50">more</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Single Benefits Card | #6 -->
                     <div class="col">
-                        <div class="card h-100 p-20">
+                        <div class="card p-30">
                             <div class="card-content">
-                                <h1 class="c-primary">06</h1>
-                                <h2 class="c-primary py-20">24/7 Support</h2>
+                                <span class="c-primary">06</span>
+                                <h3 class="c-primary py-20">24/7 Support</h3>
                                 <p class="py-20">Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
-                                <a href="#" class="btn btn-l btn-primary">more</a>
+                                <a href="#" class="btn btn-l btn-primary w-50">more</a>
                             </div>
                         </div>
                     </div>
@@ -293,19 +309,19 @@
                 <div class="row py-20">
 
                     <!-- Left Column | Title + Description -->
-                    <div class="col">
-                        <h1 class="c-primary">About Us</h1>
-                        <p class="py-20">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In qui, alias veritatis illo laborum recusandae eligendi eum nostrum odio consectetur nam libero voluptate totam corrupti? Omnis minima quis fugit molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae deleniti quia ipsam mollitia error pariatur ut, ducimus omnis placeat. Ipsam, amet aut! Alias cupiditate, omnis facilis minima delectus provident.</p>
-                        <p class="py-20">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi impedit ipsa, atque nihil dolorum aperiam officia aspernatur labore corrupti culpa voluptatum tenetur quos libero illo, ab perspiciatis laboriosam. Rerum, repellendus!</p>
+                    <div class="col p-20">
+                        <h2 class="c-primary">About Us</h2>
+                        <p class="py-30">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In qui, alias veritatis illo laborum recusandae eligendi eum nostrum odio consectetur nam libero voluptate totam corrupti? Omnis minima quis fugit molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae deleniti quia ipsam mollitia error pariatur ut, ducimus omnis placeat. Ipsam, amet aut! Alias cupiditate, omnis facilis minima delectus provident.</p>
+                        <p class="py-30">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi impedit ipsa, atque nihil dolorum aperiam officia aspernatur labore corrupti culpa voluptatum tenetur quos libero illo, ab perspiciatis laboriosam. Rerum, repellendus!</p>
                     </div>
 
                     <!-- Right Column | Profile Linkedin Box -->
                     <div class="col">
-                        <div class="card-image">
-                            <img class="w-100 h-100" src="images/about.jpg" alt="About Us | Linkedin">
+                        <figure class="card-image">
+                            <img class="w-100" src="images/about.jpg" alt="About Us | Linkedin">
                             <i class="fa-solid fa-quote-left fa-5x c-primary"></i>
-                        </div>
-                        <h2 class="c-primary my-15">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h2>
+                        </figure>
+                        <h3 class="c-primary py-20">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</h3>
                         <a href="#" class="btn btn-l btn-primary">
                             <i class="fa-brands fa-linkedin"></i> Find me on Linkedin
                         </a>
@@ -319,27 +335,27 @@
     <!-- Footer -->
     <footer>
         <!-- Get Started Section -->
-        <section id="get-started">
+        <section id="get-started" class="bg-primary c-white">
             <div class="container">
                 <!-- Row Flex -->
-                <div class="row py-20 t-center">
-                    <h4>get started</h4>
-                    <h2>Simple, Transparent Pricing</h2>
-                    <h1>It's Free!</h1>
-                    <p>We're still in beta and we will be for awhile. As we add more functionality, we'll look into other plans with more controls.</p>
-                    <a href="#" class="btn btn-xl c-primary">Get Started</a>
-                    <span>Copyright 2021 Boolean &middot; Classe 68 &middot; <a href="#">Privacy policy</a></span>
+                <div class="row py-30 t-center">
+                    <h4 class="c-grey py-20">get started</h4>
+                    <h2 class="py-20">Simple, Transparent Pricing</h2>
+                    <h1 class="c-tertiary py-20">It's Free!</h1>
+                    <p class="py-20">We're still in beta and we will be for awhile. As we add more functionality, we'll look into other plans with more controls.</p>
+                    <a href="#" class="btn btn-xl c-primary my-15">Get Started</a>
+                    <span class="py-20">Copyright 2021 Boolean &middot; Classe 68 &middot; <a href="#" class="c-white">Privacy policy</a></span>
                 </div>
             </div>
         </section>
 
         <!-- More Footer's Information -->
-        <section id="foot-info">
+        <section id="foot-info" class="bg-black c-white">
             <div class="container">
                 <!-- Row Flex -->
                 <div class="row py-20 t-center">
-                    <p>lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi maiores minima vitae vero nulla pariatur impedit!</p>
-                    <p><a href="#">lorem ipsum </a>scelerisque mauris pellentesque<a href="#"> Boolean Careers</a></p>
+                    <p class="py-30">lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi maiores minima vitae vero nulla pariatur impedit!</p>
+                    <p class="py-30"><a href="#" class="c-primary">lorem ipsum </a>scelerisque mauris pellentesque<a href="#" class="c-primary"> Boolean Careers</a></p>
                 </div>
             </div>
         </section>
