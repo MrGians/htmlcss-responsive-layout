@@ -170,6 +170,8 @@ img {display: block;}
 /* Single Card (Big Card) */
 #get-app .big-card {padding-bottom: 0;}
 
+#get-app .big-card .card-image {align-self: flex-end;}
+
 /* Single Card */
 #get-app .card {
     background-color: var(--light-secondary);
@@ -180,6 +182,7 @@ img {display: block;}
 
 /* Card Content */
 #get-app .card-content .btn {width: 85%;}
+
 
 
 /*********** Strategic Planning Section ***********/
